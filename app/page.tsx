@@ -26,14 +26,15 @@ export default function HomePage() {
       </p>
 
       {/* AR Button */}
-      <a
-        href="/models/Machine.glb"
-        rel="ar"
-        download
-        className="mt-8 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg text-lg font-medium hover:scale-105 transition-transform duration-300"
-      >
-        📱 Experience in Your Room
-      </a>
+<a
+  href="intent://arvr.google.com/scene-viewer/1.0?file=https://yourdomain.com/models/Machine.glb&mode=ar_preferred#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://yourdomain.com/fallback;end;"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg text-lg font-medium hover:scale-105 transition-transform duration-300"
+>
+  📱 Experience in Your Room
+</a>
+
     </main>
   )
 }
