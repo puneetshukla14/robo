@@ -27,10 +27,10 @@ export default function HomePage() {
 
       {/* AR Button */}
 <a
-  href="intent://arvr.google.com/scene-viewer/1.0?file=https://yourdomain.com/models/Machine.glb&mode=ar_preferred#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://yourdomain.com/fallback;end;"
+  href="intent://arvr.google.com/scene-viewer/1.0?file=https://robot-puneet-shuklas-projects.vercel.app/models/Machine.glb&mode=ar_preferred#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;end;"
   target="_blank"
   rel="noopener noreferrer"
-  className="mt-8 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg text-lg font-medium hover:scale-105 transition-transform duration-300"
+  className="bg-blue-600 text-white px-4 py-2 rounded"
 >
   📱 Experience in Your Room
 </a>
